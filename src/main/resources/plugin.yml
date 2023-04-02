@@ -1,0 +1,13 @@
+name: WordScrambler
+version: '${project.version}'
+main: me.loving11ish.wordscrambler.WordScrambler
+api-version: 1.19
+authors: [ SavageDev, Loving11ish ]
+commands:
+  scramble:
+    aliases: answerscram
+    description: provides options for a word scramble
+  reloadscramble:
+    aliases: scrreload
+    description: reloads the command
+    permission: scramble.reload

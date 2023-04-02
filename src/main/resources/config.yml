@@ -1,0 +1,171 @@
+#=====================================================================================================#
+# /  \    /  \___________  __| _/  /   _____/ ________________    _____\_ |__ |  |   ___________       #
+#  \/\/   /  _ \_  __ \/ __ |   \_____  \_/ ___\_  __ \__  \  /     \| __ \|  | _/ __ \_  __ \         #
+# \ # __      __                .___   _________                          ___.   .__
+# \        (  <_> )  | \/ /_/ |   /        \  \___|  | \// __ \|  Y Y  \ \_\ \  |_\  ___/|  | \/       #
+# \__/\  / \____/|__|  \____ |  /_______  /\___  >__|  (____  /__|_|  /___  /____/\___  >__|           #
+# \/                   \/          \/     \/           \/      \/    \/          \/                    #
+#=====================================================================================================#
+
+
+words-to-scramble: #to be changed
+  - flightsmp
+  - oliveoilzz
+  - hypedsucks
+  - some
+  - take
+  - tell
+  - than
+  - that
+  - the
+  - their
+  - them
+  - then
+  - there
+  - these
+  - they
+  - thing
+  - think
+  - this
+  - those
+  - time
+  - to
+  - two
+  - up
+  - use
+  - very
+  - want
+  - way
+  - we
+  - well
+  - what
+  - when
+  - which
+  - who
+  - will
+  - with
+  - would
+  - year
+  - you
+  - your
+  - question
+  - hypnotic
+  - yummy
+  - shrill
+  - creator
+  - concerned
+  - ambiguous
+  - order
+  - immense
+  - red
+  - cable
+  - spark
+  - accidental
+  - chew
+  - pen
+  - cowardly
+  - thundering
+  - quill
+  - wilderness
+  - honorable
+  - beef
+  - grumpy
+  - knowledge
+  - spiritual
+  - loud
+  - poke
+  - tangy
+  - groovy
+  - courageous
+  - reproduce
+  - act
+  - godly
+  - pull
+  - swift
+  - cart
+  - drop
+  - spot
+  - vagabond
+  - demonic
+  - cake
+  - noiseless
+  - terrible
+  - train
+  - strap
+  - savage
+  - berserk
+  - fantastic
+  - dinner
+  - car
+  - bathe
+  - spiders
+  - disgusting
+  - airplane
+  - obscene
+  - truck
+  - gainful
+  - resonant
+  - search
+  - opposite
+  - rotten
+  - tasteful
+  - mute
+  - plucky
+  - nonstop
+  - few
+  - new
+  - fail
+  - committee
+  - overjoyed
+  - quaint
+  - first
+  - baby
+  - twig
+  - fish
+  - skate
+  - suit
+  - entertain
+  - pumped
+  - exclusive
+  - poison
+  - imminent
+  - curl
+  - medical
+  - sturdy
+  - pipe
+  - efficient
+  - glamorous
+  - guarded
+  - examine
+  - lazy
+  - decorate
+  - barbarous
+  - sock
+  - quixotic
+  - tense
+  - glove
+  - manage
+  - abrupt
+  - invention
+  - letters
+  - therapeutic
+
+#Rewards:
+reward-short: 3000
+
+reward-medium: 5000
+
+reward-long: 10000
+
+#Other Config
+announcement-prefix: "&6&l[Unscramble]"
+
+#Placeholders:
+# %player% - gets the name of the player who sent the message.
+# %scramble-prefix% - gets the prefix defined above.
+# %scrambled-word% - gets the current scrambled word.
+# %unscrambled-word% - gets the current unscrambled word
+
+scramble-announcement: '%scramble-prefix% &bunscramble this word &6%scrambled-word%, &bguess using &6/scramble answer [Your Answer]!'
+
+scramble-answer: "%scramble-prefix% &b%player% &ahas successfully unscrambled the word: &6%unscrambled-word%"
